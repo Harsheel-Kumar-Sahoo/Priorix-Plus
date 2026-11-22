@@ -121,7 +121,7 @@ label{display:block;font-size:12px;font-weight:700;color:var(--muted);margin:12p
   </section>
 
   <div class="tools">
-    <label class="search" style="margin:0;text-transform:none;letter-spacing:0;font-weight:400"><span id="sIc"></span><input id="q" placeholder="Search tasks" aria-label="Search tasks"></label>
+    <label class="search" style="margin:0;text-transform:none;letter-spacing:0;font-weight:400"><span id="sIc"></span><input id="q" name="px-search" type="text" enterkeyhint="search" autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other" placeholder="Search tasks" aria-label="Search tasks"></label>
     <select id="sort" aria-label="Sort"><option value="smart">Smart order</option><option value="deadline">Deadline</option><option value="priority">Priority</option><option value="new">Newest</option></select>
   </div>
   <div class="tabs" id="tabs"></div>
@@ -133,8 +133,8 @@ label{display:block;font-size:12px;font-weight:700;color:var(--muted);margin:12p
 <dialog id="dlg">
   <div class="dh"><h2 id="dTitle">New task</h2><button class="icon" data-close aria-label="Close" id="x1"></button></div>
   <div class="db">
-    <label for="fTitle">Task</label><input class="in" id="fTitle" placeholder="What needs doing?" maxlength="140">
-    <label for="fNotes">Notes</label><textarea class="in" id="fNotes" rows="2" placeholder="Optional details"></textarea>
+    <label for="fTitle">Task</label><input class="in" id="fTitle" name="px-task-title" type="text" enterkeyhint="done" autocapitalize="sentences" autocomplete="off" autocorrect="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other" placeholder="What needs doing?" maxlength="140">
+    <label for="fNotes">Notes</label><textarea class="in" id="fNotes" name="px-task-notes" autocapitalize="sentences" autocomplete="off" autocorrect="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other" rows="2" placeholder="Optional details"></textarea>
     <div class="row">
       <div><label for="fDate">Deadline date</label><input class="in" type="date" id="fDate"></div>
       <div><label for="fTime">Deadline time</label><input class="in" type="time" id="fTime"></div>
@@ -142,7 +142,7 @@ label{display:block;font-size:12px;font-weight:700;color:var(--muted);margin:12p
     <label>Priority</label>
     <div class="seg" id="seg"><button type="button" data-p="low">Low</button><button type="button" data-p="medium">Medium</button><button type="button" data-p="high">High</button></div>
     <label for="fLink">Links</label>
-    <div style="display:flex;gap:8px"><input class="in" id="fLink" placeholder="https://…" inputmode="url"><button class="btn" type="button" id="addLink">Add</button></div>
+    <div style="display:flex;gap:8px"><input class="in" id="fLink" name="px-task-link" type="text" inputmode="url" enterkeyhint="done" autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other" placeholder="https://…"><button class="btn" type="button" id="addLink">Add</button></div>
     <div class="chips" id="chips"></div>
     <div class="foot"><button class="btn" data-close type="button">Cancel</button><button class="btn primary" id="save" type="button">Save task</button></div>
   </div>
