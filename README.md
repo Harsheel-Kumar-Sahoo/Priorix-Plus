@@ -6,6 +6,9 @@
 
 **A minimal, installable task manager that tells you what to do next.**
 
+<a href="https://priorix-plus.vercel.app"><b>Open the live app &rarr; priorix-plus.vercel.app</b></a>
+
+<a href="https://priorix-plus.vercel.app"><img src="https://img.shields.io/badge/live-priorix--plus.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live demo"></a>
 <img src="https://img.shields.io/badge/PWA-installable-4f46e5?style=flat-square" alt="PWA">
 <img src="https://img.shields.io/badge/offline-ready-0ea5e9?style=flat-square" alt="Offline ready">
 <img src="https://img.shields.io/badge/dependencies-none-10b981?style=flat-square" alt="No dependencies">
@@ -52,7 +55,7 @@ So an overdue low-priority task (62) outranks a high-priority task due next week
 
 ## <img src="https://api.iconify.design/lucide/download.svg?color=%236366f1" width="24" height="24" align="absmiddle" alt="">&nbsp; Install
 
-Priorix needs to be served over **HTTPS** to be installable. Hosting is free on Netlify Drop, GitHub Pages or Cloudflare Pages.
+Open **[priorix-plus.vercel.app](https://priorix-plus.vercel.app)** on your phone or computer to install it right away. Priorix needs to be served over **HTTPS** to be installable. Hosting is free on Netlify Drop, GitHub Pages or Cloudflare Pages.
 
 | Platform | Steps |
 |---|---|
